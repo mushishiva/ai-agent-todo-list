@@ -1,0 +1,13 @@
+[project]
+name = "todo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain-core>=0.3.58",
+    "langchain-openai>=0.3.16",
+    "mcp[cli]>=1.6.0",
+    "nest-asyncio>=1.6.0",
+    "streamlit>=1.45.0",
+]
